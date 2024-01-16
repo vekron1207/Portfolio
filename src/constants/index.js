@@ -2,27 +2,20 @@ import {
   mobile,
   backend,
   fullstack,
-  creator,
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
-  tailwind,
+  php,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   globalLogic,
+  SASPV,
   optym,
   NCERT,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  yojana,
+  autoEmail,
 } from "../assets";
 
 export const navLinks = [
@@ -78,7 +71,7 @@ const technologies = [
   },
   {
     name: "PHP",
-    icon: php
+    icon: php,
   },
   {
     name: "docker",
@@ -96,7 +89,7 @@ const experiences = [
     points: [
       "Collaborated with Google as an on-site client, contributing to the maintenance of the company's Knowledge Graph data",
       "Ensured the accuracy and quality of both internal and external databases by updating and maintaining them, providing users with up-to-date information.",
-      "Maintained a high level of quality, consistently achieving a benchmark of 95% or higher."
+      "Maintained a high level of quality, consistently achieving a benchmark of 95% or higher.",
     ],
   },
   {
@@ -144,7 +137,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: SASPV,
     source_code_link: "https://github.com/vekron1207/Major_Final",
   },
   {
@@ -165,7 +158,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: yojana,
     source_code_link: "https://github.com/",
   },
   {
@@ -186,9 +179,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: autoEmail,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
