@@ -6,6 +6,8 @@ import {
   typescript,
   reactjs,
   php,
+  python,
+  java,
   nodejs,
   git,
   docker,
@@ -76,6 +78,14 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
 ];
 
 const experiences = [
@@ -140,16 +150,16 @@ const projects = [
     source_code_link: "https://github.com/vekron1207/Major_Final",
   },
   {
-    name: "Job IT",
+    name: "Yojana",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This MIS(Management Information System) portal, 'YOJANA', is created with the objectives to ensure the effective monitoring of programmes, updating of the progress of programmes and quick retrieval of essential information. It shall provide information on the PAC/PAB approved projects carried out by the Constituent Units of NCERT.",
     tags: [
       {
-        name: "react",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
@@ -158,28 +168,24 @@ const projects = [
       },
     ],
     image: yojana,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://yojana.ncert.gov.in/#",
   },
   {
-    name: "Trip Guide",
+    name: "Auto Email",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This Python script allows you to send emails to recipients listed in a CSV file. It reads the email addresses, usernames, and other details from the CSV file and sends customized emails to each recipient..",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "git",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: autoEmail,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/vekron1207/autoEmail",
   },
 ];
 

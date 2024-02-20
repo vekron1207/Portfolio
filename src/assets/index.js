@@ -15,6 +15,8 @@ import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import php from "./tech/php.png";
+import python from "./tech/python.png";
+import java from "./tech/Java.png";
 import typescript from "./tech/typescript.png";
 import globalLogic from "./company/globalLogic.png";
 import NCERT from "./company/NCERT.png";
@@ -32,6 +34,8 @@ export {
   docker,
   reactjs,
   php,
+  python,
+  java,
   SASPV,
   autoEmail,
   yojana,
