@@ -1,12 +1,18 @@
-import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import PropTypes from "prop-types";
 
 const ServiceCard = ({ index, title, icon }) => {
+  ServiceCard.propTypes = {
+    index: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+  };
+
   return (
     <Tilt className="xs: w-[250px]">
       <motion.div
@@ -58,4 +64,5 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about");
+const AboutSection = SectionWrapper(About, "about");
+export default AboutSection;
